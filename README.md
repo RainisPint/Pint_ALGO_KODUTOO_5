@@ -33,7 +33,7 @@ Kuhja iga suurem element asub puu juures ining eemaldatakse max-kuhja juur, saab
 Kasutatakse kui andmed tuleb salvestada sorteeritud kujul või kui on vaja kiiret otsingut, sisestamist ja kustutamist. Sõlmedel võib olla rohkem kui kaks last.
 Põhielemendid on Sõlm, Juur, Lehed, Vasak ja Parem alampuu, Vanem.
 
-3. Arutle, kuidas tasakaalustamata puud mõjutavad BST tõhusust ja kuidas seda saab teoreetiliselt optimeerida.
+2. Arutle, kuidas tasakaalustamata puud mõjutavad BST tõhusust ja kuidas seda saab teoreetiliselt optimeerida.
    
 Tasakaalustamata puud muudavad BST ebaefektiivseks. Puu on ebatasakaalus, mis võib tähendada seda, et see tekitab halvema otsimis ja lisaaega. Seda saab optimeerida, kui kasutada AVL või Pun-Must puu otsingupuud, mis säilitavad tasakaalu tagamiseks kindlaid reegleid. AVL puu tagab, et iga sõlme tasakaalu (vasaku ja parema alampuu kõrguste erinevus) erinevus on maksimaalselt kõrgemal kui 1. Pun-must puu kasutab värve, et tagada puu tasakaalustus.
 
